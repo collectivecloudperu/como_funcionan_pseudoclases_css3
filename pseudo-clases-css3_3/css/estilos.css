@@ -1,0 +1,93 @@
+
+.spinner.ocultar { 
+  display: none;
+}
+
+.spinner {
+  display: inline-block;
+}
+
+.spinner:after {
+  content: url('../img/spinner.gif');
+  display: block;
+  margin-top: 20%; 
+}
+
+.fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.8);
+    z-index: 999;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.cipux {
+  margin-bottom: 200px;
+}
+
+.miimagen {
+  /* display: none; */
+}
+
+/*
+p:nth-of-type(2) {
+	background-color: orange;
+}
+*/
+
+.parrafitos3 p:only-child {
+	background-color: purple;
+	color: white;
+}
+
+.parrafitos4 p:only-of-type {
+	background-color: green;
+	color: white;
+}
+
+input:optional {
+	background-color: red;
+}
+
+#formulario2 input:out-of-range {
+	border: 5px solid gray;
+}
+
+#formulario3 input:read-only {
+	background-color: pink;
+}
+
+#formulario3 input:read-write {
+	background-color: black;
+}
+
+/* 
+#formulario3 input:required {
+	background-color: blue;
+} 
+*/ 
+
+:root {
+	font-size: 20px;
+}
+
+:target {
+	color: red;
+	font-weight: bold;
+}
+
+#formulario3 input:valid {
+	background-color: #444444;
+	color: white;
+}
+
+a:visited {
+	color: orange;
+	font-weight: bold;
+}
+
+
